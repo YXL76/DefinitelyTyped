@@ -11,6 +11,8 @@ export interface CacheObject {
     path: string;
     /** Timestamp the entry was first added on. */
     time: number;
+    /** The size of the found content */
+    size: number;
 }
 
 export interface GetCacheObject {
